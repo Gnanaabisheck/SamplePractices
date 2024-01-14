@@ -8,8 +8,8 @@ const HeaderBar = () => {
 
   return (
     <>
-        <nav>
-            <img src={logo} alt="" className='logo'/>
+        <nav className='nav-bar'>
+            <img src={logo} alt="" className='one-logo'/>
             <img src={menu} alt="" className='menu' onClick={()=>{setView(true)}}/>
            <ul className={view ? "slider":null}>
             <img src={closeBtn} alt="" className="close" onClick={()=>{setView(false)}}/>
