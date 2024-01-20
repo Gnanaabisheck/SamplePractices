@@ -1,4 +1,4 @@
- html{
+ /* html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -110,11 +110,11 @@ li:hover{
     top: 5px;
     height: 20px;
     display: none;
-}
+} */
 
 
 /* for mobile responsive design */
-
+/* 
 @media screen and (max-width:1028px)
 {
    .nav-bar ul{
@@ -190,4 +190,4 @@ li:hover{
   }
 
 
-} 
+}  */
