@@ -124,7 +124,7 @@ const topApps = [
           </li>
          </ul>
           </Col>
-          <Col md={7}>
+          <Col md={12} lg={7}>
             <Image src={bigImg} fluid className="banner-img"/>
             <Row className="mt-3">
               <h3 className="my-3">
@@ -156,7 +156,7 @@ const topApps = [
               }
             </Row>
           </Col>
-          <Col md={3}>
+          <Col lg={3} md={12}>
           
           <div className="trending-main my-3" >
             <div className="trending-title">
